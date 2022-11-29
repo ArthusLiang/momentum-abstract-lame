@@ -11,6 +11,6 @@ const getProcessArgs = () => {
     return ret;
 }
 
-const args = getProcessArgs();
+const args = getProcessArgs().a+'';
 
 console.log(args);
